@@ -18,6 +18,7 @@ class mainwindow(Gtk.Window):
         box1 = Gtk.VButtonBox(spacing=10)
 
         self.entry = Gtk.Entry()
+        self.entry.set_alignment(xalign=0.5)
 
         button1 = Gtk.Button.new_with_mnemonic("Run")
         button1.connect("clicked", self.whenbutton1_clicked)

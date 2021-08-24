@@ -1,9 +1,9 @@
-# BrightSetter
+# commandRunner
 
-A graphical wrapper for brightnessctl written using PyGObject (Python/GTK+) to set screen brightness outside of the default range on Linux-based desktop operating systems. 
-Dependencies: Python (3.8.5.), GTK3, brightnessctl
+A graphical utility for running terminal commands written using PyGObject (Python/GTK+)
+Dependencies: Python (3.8.5.), GTK3
 
 ![Screenshot](https://raw.githubusercontent.com/louckazdenekjr/BrightSetter/master/Screenshot.png)
 
-#pyinstaller BrightSetter --onefile --windowed --icon=app.ico
+#pyinstaller commandRunner --onefile --windowed --icon=app.ico
 
